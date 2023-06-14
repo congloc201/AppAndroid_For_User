@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="home">Trang chủ</string>
+    <string name="account">Tài khoản</string>
+    <string name="endow">Ưu đãi</string>
+    <string name="station">Trạm</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="googleapi">AIzaSyDIwo0NsDMq_Ncu5zHT15175TyDhw6JVr8</string>
+    <string name="HoTen">Họ và tên</string>
+    <string name="quequan">Quê quán</string>
+    <string name="ngaysinh">Ngày sinh</string>
+    <string name="email">Email</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="bienso">Biển số xe</string>
+</resources>

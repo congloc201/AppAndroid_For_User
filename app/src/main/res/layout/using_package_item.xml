@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UsingPackgeFragment">
+
+
+    <View
+
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+         />
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/divider3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/txt_loaive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vé Tháng"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/txt_ngaybatdau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12/3/2022"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/txt_ngayketthuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12/4/2022"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/txt_trangthai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đang hoạt động"
+        android:textColor="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/divider3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loại vé"
+        android:textStyle="bold"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày bắt đầu"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày kết thúc"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        app:layout_constraintTop_toBottomOf="@id/textView3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
